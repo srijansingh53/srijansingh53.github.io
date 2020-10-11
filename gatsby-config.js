@@ -5,7 +5,7 @@ module.exports = {
     title: 'Srijan Singh',
     description:
       'Srijan Singh is a software engineer specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.',
-    siteUrl: 'https://srijansingh53.github,io', // No trailing slash allowed!
+    siteUrl: 'https://srijansingh53.github.io', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@SrijanS23563236',
   },

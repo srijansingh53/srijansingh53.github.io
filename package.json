@@ -1,11 +1,11 @@
 {
   "name": "v4",
-  "description": "Personal Website V4",
+  "description": "Personal Website",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "author": "Srijan Singh <srijansingh53@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/srijansingh53/srijansingh53.github.io"
   },
   "keywords": [
     "gatsby"
@@ -18,8 +18,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "husky": {
     "hooks": {
@@ -34,7 +33,6 @@
       "eslint --fix"
     ]
   },
-  "homepage": "https://srijansingh.github.io/",
   "dependencies": {
     "animejs": "^3.1.0",
     "babel-plugin-styled-components": "^1.10.6",
