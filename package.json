@@ -17,7 +17,9 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -b master -d build",
   },
   "husky": {
     "hooks": {
@@ -32,6 +34,7 @@
       "eslint --fix"
     ]
   },
+  "homepage": "https://srijansingh.github.io/",
   "dependencies": {
     "animejs": "^3.1.0",
     "babel-plugin-styled-components": "^1.10.6",
