@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '2020-02-01'
 title: 'hatErase'
 cover: './tracks.png'
 github: 'https://github.com/srijansingh53/hatErase'

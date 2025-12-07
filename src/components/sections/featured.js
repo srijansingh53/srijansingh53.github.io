@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import Img from 'gatsby-image';
+import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import styled from 'styled-components';
 import sr from '@utils/sr';
 import { srConfig } from '@config';
@@ -240,7 +240,7 @@ const Featured = () => {
     query {
       featured: allMarkdownRemark(
         filter: { fileAbsolutePath: { regex: "/featured/" } }
-        sort: { fields: [frontmatter___date], order: DESC }
+        sort: { frontmatter: { date: DESC } }
       ) {
         edges {
           node {
@@ -248,9 +248,7 @@ const Featured = () => {
               title
               cover {
                 childImageSharp {
-                  fluid(maxWidth: 700, traceSVG: { color: "#64ffda" }) {
-                    ...GatsbyImageSharpFluid_withWebp_tracedSVG
-                  }
+                  gatsbyImageData(width: 700, placeholder: BLURRED, formats: [AUTO, WEBP])
                 }
               }
               tech
@@ -302,12 +300,12 @@ const Featured = () => {
 
                   <div className="project-links">
                     {github && (
-                      <a href={github} aria-label="GitHub Link" target="_blank">
+                      <a href={github} aria-label="GitHub Link" target="_blank" rel="noreferrer">
                         <Icon name="GitHub" />
                       </a>
                     )}
                     {external && (
-                      <a href={external} aria-label="External Link" target="_blank">
+                      <a href={external} aria-label="External Link" target="_blank" rel="noreferrer">
                         <Icon name="External" />
                       </a>
                     )}
@@ -315,8 +313,8 @@ const Featured = () => {
                 </div>
 
                 <div className="project-image">
-                  <a href={external ? external : github ? github : '#'} target="_blank">
-                    <Img fluid={cover.childImageSharp.fluid} alt={title} className="img" />
+                  <a href={external ? external : github ? github : '#'} target="_blank" rel="noreferrer">
+                    <GatsbyImage image={getImage(cover)} alt={title} className="img" />
                   </a>
                 </div>
               </StyledProject>
