@@ -4,8 +4,18 @@ node_modules
 yarn-error.log
 package-lock.json
 
-# Build directory
-# public/
+# Build directory (development only)
+public/
+
+# Allow built files in root for GitHub Pages
+!index.html
+!*.js
+!*.css
+!static/
+!page-data/
+!manifest.webmanifest
+!*.png
+!*.pdf
 .DS_Store
 
 .vscode/
