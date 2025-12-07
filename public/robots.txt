@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://srijansingh53.github.io/sitemap.xml
-Host: https://srijansingh53.github.io
