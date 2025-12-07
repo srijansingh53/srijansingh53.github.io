@@ -1,0 +1,44 @@
+{
+  "data": {
+    "jobs": {
+      "edges": [
+        {
+          "node": {
+            "frontmatter": {
+              "title": "Intern, Machine Learning Engineer",
+              "company": "InvestWell",
+              "location": "Gurgoan, India",
+              "range": "August 2020 - September 2020",
+              "url": "https://www.investwellonline.com/"
+            },
+            "html": "<ul>\n<li>Developed an intelligent captcha breaker to be used as a pre-filling tool in application forms. Applied morphological techniques, de-skew letters and transformed into a processing pipeline. Trained a custom DL model on processed letters of 28 classes to improve accuracy more than standard OCR.</li>\n<li>Developed a continuous learning module for new incoming data and fine-tuning the pre-trained model and its integration along with the inference pipeline into the existing Flask microservice.</li>\n</ul>"
+          }
+        },
+        {
+          "node": {
+            "frontmatter": {
+              "title": "Intern, Computer Vision",
+              "company": "Schnell Labs",
+              "location": "Remote (Latvia)",
+              "range": "April 2020 - May 2020",
+              "url": "http://schnellabs.com/"
+            },
+            "html": "<ul>\n<li>Developed a Vehicle Detection and Counting model for an edge device, converted into tflite equivalent, both quantized and non-quantized. Processed frames from an IP camera and optimized the frames per second, finally deployed using Flask.</li>\n<li>Developed another approach to sent frames from edge to aws S3 bucket, processed on ec2 machine and deployed using Elastic IP. Retrieve location of camera, region, time and maintained a database for the statistics of the vehicle counting after a fixed interval.</li>\n</ul>"
+          }
+        },
+        {
+          "node": {
+            "frontmatter": {
+              "title": "Intern, Deep Learning",
+              "company": "Synergy Labs",
+              "location": "Gurgoan, India",
+              "range": "December 2019 - January 2020",
+              "url": "https://synlabs.io/"
+            },
+            "html": "<ul>\n<li>Worked on a Vision-aided Robot (6 DOF arm) to perform different tasks as communicated from server running on Nvidia Jetson Nano. Applied IP techniques to detect colour, circles, pattern, OCR, QRcodes and calculate transformation matrix to direct Robot’s TCP to the target location on object so as to perform the designated task.</li>\n<li>Semantic Segmentation of metal surface defects based on pixel encodings, used U-Net and dice loss to generate masks on test images.</li>\n</ul>"
+          }
+        }
+      ]
+    }
+  }
+}
