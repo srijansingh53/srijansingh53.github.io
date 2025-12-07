@@ -193,17 +193,6 @@ const StyledProject = styled.div`
       border-radius: var(--border-radius);
       vertical-align: middle;
 
-      &:hover,
-      &:focus {
-        background: transparent;
-
-        &:before,
-        .img {
-          background: transparent;
-          filter: none;
-        }
-      }
-
       &:before {
         content: '';
         position: absolute;
@@ -215,21 +204,21 @@ const StyledProject = styled.div`
         bottom: 0;
         z-index: 3;
         transition: var(--transition);
-        background-color: var(--navy);
-        mix-blend-mode: screen;
+        background-color: transparent;
+        mix-blend-mode: normal;
       }
     }
 
     .img {
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1) brightness(90%);
+      mix-blend-mode: normal;
+      filter: none;
 
       @media (max-width: 768px) {
         object-fit: cover;
         width: auto;
         height: 100%;
-        filter: grayscale(100%) contrast(1) brightness(80%);
+        filter: none;
       }
     }
   }
@@ -305,7 +294,11 @@ const Featured = () => {
                       </a>
                     )}
                     {external && (
-                      <a href={external} aria-label="External Link" target="_blank" rel="noreferrer">
+                      <a
+                        href={external}
+                        aria-label="External Link"
+                        target="_blank"
+                        rel="noreferrer">
                         <Icon name="External" />
                       </a>
                     )}
@@ -313,7 +306,10 @@ const Featured = () => {
                 </div>
 
                 <div className="project-image">
-                  <a href={external ? external : github ? github : '#'} target="_blank" rel="noreferrer">
+                  <a
+                    href={external ? external : github ? github : '#'}
+                    target="_blank"
+                    rel="noreferrer">
                     <GatsbyImage image={getImage(cover)} alt={title} className="img" />
                   </a>
                 </div>
