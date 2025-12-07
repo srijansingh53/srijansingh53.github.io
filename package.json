@@ -18,7 +18,10 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master",
+    "build:deploy": "gatsby build --prefix-paths --output-dir=dist",
+    "predeploy": "yarn clean && yarn build:deploy",
+    "deploy": "gh-pages -d dist -b master --force",
+    "deploy:fresh": "yarn clean && yarn build:deploy && gh-pages -d dist -b master --force --remove '.'",
     "prepare": "husky install"
   },
   "lint-staged": {
