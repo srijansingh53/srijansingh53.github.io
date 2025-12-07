@@ -45,14 +45,6 @@ const StyledProject = styled.div`
   cursor: default;
   transition: var(--transition);
 
-  &:hover,
-  &:focus {
-    outline: 0;
-    .project-inner {
-      transform: translateY(-5px);
-    }
-  }
-
   .project-inner {
     ${({ theme }) => theme.mixins.boxShadow};
     ${({ theme }) => theme.mixins.flexBetween};
@@ -205,12 +197,20 @@ const Projects = () => {
                         </div>
                         <div className="project-links">
                           {github && (
-                            <a href={github} aria-label="GitHub Link" target="_blank" rel="noreferrer">
+                            <a
+                              href={github}
+                              aria-label="GitHub Link"
+                              target="_blank"
+                              rel="noreferrer">
                               <Icon name="GitHub" />
                             </a>
                           )}
                           {external && (
-                            <a href={external} aria-label="External Link" target="_blank" rel="noreferrer">
+                            <a
+                              href={external}
+                              aria-label="External Link"
+                              target="_blank"
+                              rel="noreferrer">
                               <Icon name="External" />
                             </a>
                           )}
