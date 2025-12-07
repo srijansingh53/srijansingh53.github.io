@@ -62,27 +62,11 @@ const StyledPic = styled.div`
     border-radius: var(--border-radius);
     background-color: var(--green);
 
-    &:hover,
-    &:focus {
-      background: transparent;
-      outline: 0;
-
-      &:after {
-        top: 15px;
-        left: 15px;
-      }
-
-      .img {
-        filter: none;
-        mix-blend-mode: normal;
-      }
-    }
-
     .img {
       position: relative;
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1);
+      mix-blend-mode: normal;
+      filter: none;
       transition: var(--transition);
     }
 
@@ -100,8 +84,8 @@ const StyledPic = styled.div`
     &:before {
       top: 0;
       left: 0;
-      background-color: var(--navy);
-      mix-blend-mode: screen;
+      background-color: transparent;
+      mix-blend-mode: normal;
     }
 
     &:after {
@@ -116,7 +100,7 @@ const StyledPic = styled.div`
 const About = () => {
   const data = useStaticQuery(graphql`
     query {
-      avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "me.jpg" }) {
+      avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "me.jpeg" }) {
         childImageSharp {
           gatsbyImageData(width: 500, placeholder: BLURRED, formats: [AUTO, WEBP])
         }
@@ -130,7 +114,16 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Pytorch | Keras', 'ML/DL', 'Computer Vision', 'NLP', 'Django | Flask', 'Node.js', 'AWS', 'Python | C++'];
+  const skills = [
+    'Pytorch | Keras',
+    'ML/DL',
+    'Computer Vision',
+    'NLP',
+    'Django | Flask',
+    'Node.js',
+    'AWS',
+    'Python | C++',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -142,13 +135,17 @@ const About = () => {
             <p>Hello! I am an ML engineer based in Kolkata, India.</p>
 
             <p>
-              I enjoy building things that solves complex problem involving any data using the latest technologies. I always strive to deliver perfect 
-              solutions with the data in hand and hence empowering the tech itself.
+              I enjoy building things that solves complex problem involving any data using the
+              latest technologies. I always strive to deliver perfect solutions with the data in
+              hand and hence empowering the tech itself.
             </p>
 
             <p>
               Currently in final year of graduation from{' '}
-              <a href="https://www.iiitdmj.ac.in" target="_blank" rel="noreferrer">IIIT Jabalpur</a>, which is completing on May 2021. I have done previous intenships at 3 different
+              <a href="https://www.iiitdmj.ac.in" target="_blank" rel="noreferrer">
+                IIIT Jabalpur
+              </a>
+              , which is completing on May 2021. I have done previous intenships at 3 different
               companies where I worked on a wide variety of interesting and meaningful projects.
             </p>
 
