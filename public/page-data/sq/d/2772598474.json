@@ -1,0 +1,30 @@
+{
+  "data": {
+    "avatar": {
+      "childImageSharp": {
+        "gatsbyImageData": {
+          "layout": "constrained",
+          "placeholder": {
+            "fallback": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAGqfTEUQkn/xAAaEAADAAMBAAAAAAAAAAAAAAABAgMAEhQi/9oACAEBAAEFAnbwtWReg5KIItIaaHP/xAAXEQADAQAAAAAAAAAAAAAAAAAAAREh/9oACAEDAQE/AUsIf//EABcRAQADAAAAAAAAAAAAAAAAAAABAhL/2gAIAQIBAT8Bmzb/xAAbEAACAwADAAAAAAAAAAAAAAAAAREiMQISMv/aAAgBAQAGPwJ9dLWPKJ5uWV1GH//EABsQAAIDAAMAAAAAAAAAAAAAAAExABEhYfDx/9oACAEBAAE/IayEM5cBGlFT2JYyRcTfspudxn//2gAMAwEAAgADAAAAEGj/AP/EABgRAAIDAAAAAAAAAAAAAAAAAAARITFx/9oACAEDAQE/EJTsyf/EABkRAAEFAAAAAAAAAAAAAAAAAAABESExcf/aAAgBAgEBPxCd0o2f/8QAGhABAAMBAQEAAAAAAAAAAAAAAQARMWEhUf/aAAgBAQABPxBDnpxcB1TvwodrZTos16djwHD7MXifAdiL6R6Gf//Z"
+          },
+          "images": {
+            "fallback": {
+              "src": "/static/ed5938eba70d907d9a9fd4ef3af889c4/eae5f/me.jpg",
+              "srcSet": "/static/ed5938eba70d907d9a9fd4ef3af889c4/0a014/me.jpg 125w,\n/static/ed5938eba70d907d9a9fd4ef3af889c4/93696/me.jpg 250w,\n/static/ed5938eba70d907d9a9fd4ef3af889c4/eae5f/me.jpg 500w,\n/static/ed5938eba70d907d9a9fd4ef3af889c4/47519/me.jpg 1000w",
+              "sizes": "(min-width: 500px) 500px, 100vw"
+            },
+            "sources": [
+              {
+                "srcSet": "/static/ed5938eba70d907d9a9fd4ef3af889c4/0e5a4/me.webp 125w,\n/static/ed5938eba70d907d9a9fd4ef3af889c4/b9202/me.webp 250w,\n/static/ed5938eba70d907d9a9fd4ef3af889c4/ac4bc/me.webp 500w,\n/static/ed5938eba70d907d9a9fd4ef3af889c4/13d28/me.webp 1000w",
+                "type": "image/webp",
+                "sizes": "(min-width: 500px) 500px, 100vw"
+              }
+            ]
+          },
+          "width": 500,
+          "height": 385
+        }
+      }
+    }
+  }
+}
