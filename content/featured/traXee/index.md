@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: '2020-01-01'
 title: 'traXee'
 cover: './history.png'
 github: 'https://github.com/srijansingh53/traxee'

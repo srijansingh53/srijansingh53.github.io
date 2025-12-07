@@ -158,7 +158,7 @@ const Jobs = () => {
     query {
       jobs: allMarkdownRemark(
         filter: { fileAbsolutePath: { regex: "/jobs/" } }
-        sort: { fields: [frontmatter___date], order: DESC }
+        sort: { frontmatter: { date: DESC } }
       ) {
         edges {
           node {
@@ -264,7 +264,7 @@ const Jobs = () => {
                     <span>{title}</span>
                     <span className="company">
                       &nbsp;@&nbsp;
-                      <a href={url} className="inline-link" target="_blank">
+                      <a href={url} className="inline-link" target="_blank" rel="noreferrer">
                         {company}
                       </a>
                     </span>

@@ -11,6 +11,33 @@ exports.createPages = async () => {
   // Blog functionality removed
 };
 
+// Define schema to handle optional fields
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions;
+
+  const typeDefs = `
+    type MarkdownRemark implements Node {
+      frontmatter: Frontmatter
+    }
+    
+    type Frontmatter {
+      title: String
+      date: String
+      cover: File @fileByRelativePath
+      tech: [String]
+      github: String
+      external: String
+      company: String
+      location: String
+      range: String
+      url: String
+      showInProjects: Boolean
+    }
+  `;
+
+  createTypes(typeDefs);
+};
+
 // https://www.gatsbyjs.org/docs/node-apis/#onCreateWebpackConfig
 exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
   // https://www.gatsbyjs.org/docs/debugging-html-builds/#fixing-third-party-modules
