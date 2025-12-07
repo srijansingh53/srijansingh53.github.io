@@ -5,37 +5,61 @@
         {
           "node": {
             "frontmatter": {
-              "title": "Intern, Machine Learning Engineer",
-              "company": "InvestWell",
-              "location": "Gurgoan, India",
-              "range": "August 2020 - September 2020",
-              "url": "https://www.investwellonline.com/"
+              "title": "Senior Software Development Engineer II",
+              "company": "GoComet India",
+              "location": "Bengaluru, India",
+              "range": "April 2025 - Present",
+              "url": "https://gocomet.com/"
             },
-            "html": "<ul>\n<li>Developed an intelligent captcha breaker to be used as a pre-filling tool in application forms. Applied morphological techniques, de-skew letters and transformed into a processing pipeline. Trained a custom DL model on processed letters of 28 classes to improve accuracy more than standard OCR.</li>\n<li>Developed a continuous learning module for new incoming data and fine-tuning the pre-trained model and its integration along with the inference pipeline into the existing Flask microservice.</li>\n</ul>"
+            "html": "<ul>\n<li>Technical and delivery lead for the 7-member Platform team behind GoTrack — the company's most active product, contributing 30% of ARR, serving enterprise clients like Honda, Unilever, TATA Motors, and Apollo Tyres.</li>\n<li>Drove architecture and technical decision-making, enforced engineering best practices, and ensured scalable system design. Contributed to OKR and product planning, managed bandwidth and task allocation.</li>\n<li>Improved engineering team velocity by reducing PR review SLAs to minutes via process changes (peer reviews, enforced review rotation) and introducing CodeRabbit for instant AI-based code reviews.</li>\n<li>Spearheaded monolith to microservices migration, starting with test case segregation. Introduced AI-assisted refactoring workflows in the IDE, reducing testcase file rewrites from 1-2 hours to ~15 minutes.</li>\n<li>Leading the technical collaboration with an external SaaS vendor to build an MVP for a new platform vertical; currently overseeing technical scoping, milestone planning, and delivery tracking.</li>\n</ul>"
           }
         },
         {
           "node": {
             "frontmatter": {
-              "title": "Intern, Computer Vision",
-              "company": "Schnell Labs",
-              "location": "Remote (Latvia)",
-              "range": "April 2020 - May 2020",
-              "url": "http://schnellabs.com/"
+              "title": "Software Development Engineer II",
+              "company": "GoComet India",
+              "location": "Bengaluru, India",
+              "range": "April 2023 - March 2025",
+              "url": "https://gocomet.com/"
             },
-            "html": "<ul>\n<li>Developed a Vehicle Detection and Counting model for an edge device, converted into tflite equivalent, both quantized and non-quantized. Processed frames from an IP camera and optimized the frames per second, finally deployed using Flask.</li>\n<li>Developed another approach to sent frames from edge to aws S3 bucket, processed on ec2 machine and deployed using Elastic IP. Retrieve location of camera, region, time and maintained a database for the statistics of the vehicle counting after a fixed interval.</li>\n</ul>"
+            "html": "<ul>\n<li>Actively collaborated with cross-functional teams, participated in end-to-end feature development, and took ownership of design, implementation, and performance tuning.</li>\n<li>Designed and delivered the backend of the GoPilot driver-facing mobile app for road-mode tracking, built within a single quarter for a strategic UAE client. Designed authentication middleware, geofencing logic, and core tracking flow.</li>\n<li>Improved ETL pipeline performance by ~30% in the transform layer, handling 30+ records/sec, each triggering 100+ model-level queries. Refactored pipeline to eliminate N+1 patterns, introduced precomputed derived fields.</li>\n<li>Drove scalability and observability improvements by introducing SLA definitions and engineering triage dashboards via New Relic. Optimized DB queries by reviewing execution plans and restructuring indexes.</li>\n<li>Reduced first-response SLA from >24 hours to ~2 hours and mean resolution time from 2-3 days to &#x3C;1 day by automating client and operations issue assignment and escalation workflows via Slack.</li>\n</ul>"
           }
         },
         {
           "node": {
             "frontmatter": {
-              "title": "Intern, Deep Learning",
-              "company": "Synergy Labs",
-              "location": "Gurgoan, India",
-              "range": "December 2019 - January 2020",
-              "url": "https://synlabs.io/"
+              "title": "Software Development Engineer I",
+              "company": "GoComet India",
+              "location": "Remote",
+              "range": "July 2021 - March 2023",
+              "url": "https://gocomet.com/"
             },
-            "html": "<ul>\n<li>Worked on a Vision-aided Robot (6 DOF arm) to perform different tasks as communicated from server running on Nvidia Jetson Nano. Applied IP techniques to detect colour, circles, pattern, OCR, QRcodes and calculate transformation matrix to direct Robot’s TCP to the target location on object so as to perform the designated task.</li>\n<li>Semantic Segmentation of metal surface defects based on pixel encodings, used U-Net and dice loss to generate masks on test images.</li>\n</ul>"
+            "html": "<ul>\n<li>Demonstrated strong ownership across the full development lifecycle for both features and bug fixes. Designed and delivered scalable logistics and data-driven features in a fast-paced environment.</li>\n<li>Built geofencing logic using vessel AIS coordinates to trigger container arrival alerts. Developed a detention and demurrage (D&#x26;D) cost computation module, leveraging port dwell times and carrier-specific free time policies.</li>\n<li>Automated container ingestion pipeline by extracting container numbers from PDF attachments in emails using OCR (AWS Textract). Integrated SFTP clients for batch data transfer and webhook-based triggers for real-time updates.</li>\n<li>Bypassed sliding image captchas from carrier websites using image processing techniques. Introduced mouse movement emulation in Selenium / Ferrum to simulate human interaction and evade bot detection.</li>\n<li>Maintained Docker-based legacy services on client servers for a key enterprise client.</li>\n</ul>"
+          }
+        },
+        {
+          "node": {
+            "frontmatter": {
+              "title": "Software Development Intern",
+              "company": "GoComet India",
+              "location": "Remote",
+              "range": "January 2021 - June 2021",
+              "url": "https://gocomet.com/"
+            },
+            "html": "<ul>\n<li>Introduced categorization of carriers based on their performance and update frequency for visibility on the client dashboard, reducing client queries about data lag by 70%.</li>\n<li>Integrated APIs of multiple global shipping lines, increasing coverage by 300% and 3rd-party logistics vendors, adding support for air tracking.</li>\n<li>Built normalization layers to standardize disparate tracking data into internal schemas.</li>\n<li>Scripting done for the sampling process for the data quality of data integrated with carrier and third-party vendors.</li>\n</ul>"
+          }
+        },
+        {
+          "node": {
+            "frontmatter": {
+              "title": "Machine Learning Engineer Intern",
+              "company": "Investwell",
+              "location": "Remote",
+              "range": "July 2020 - August 2020",
+              "url": "https://investwell.app/"
+            },
+            "html": "<ul>\n<li>Developed an intelligent CAPTCHA breaker to be used as a pre-filling tool in application forms. Applied morphological techniques, de-skew letters and transformed into a processing pipeline.</li>\n<li>Developed a continuous learning module for new incoming data and fine-tuned the pre-trained model and its integration along with the inference pipeline into the existing Flask microservice.</li>\n</ul>"
           }
         }
       ]

@@ -8,19 +8,6 @@
           {
             "node": {
               "frontmatter": {
-                "date": "2020-08-30",
-                "title": "Intern, Machine Learning Engineer",
-                "tech": null,
-                "github": null,
-                "external": null,
-                "company": "InvestWell"
-              },
-              "html": "<ul>\n<li>Developed an intelligent captcha breaker to be used as a pre-filling tool in application forms. Applied morphological techniques, de-skew letters and transformed into a processing pipeline. Trained a custom DL model on processed letters of 28 classes to improve accuracy more than standard OCR.</li>\n<li>Developed a continuous learning module for new incoming data and fine-tuning the pre-trained model and its integration along with the inference pipeline into the existing Flask microservice.</li>\n</ul>"
-            }
-          },
-          {
-            "node": {
-              "frontmatter": {
                 "date": "2020-08-03",
                 "title": "atithi",
                 "tech": [
@@ -53,58 +40,6 @@
           {
             "node": {
               "frontmatter": {
-                "date": "2020-06-20",
-                "title": "traXee",
-                "tech": ["Django", "Redis", "Celery", "Flipkart Affliate API", "AWS"],
-                "github": "https://github.com/srijansingh53/traxee",
-                "external": "https://github.com/srijansingh53/traxee",
-                "company": null
-              },
-              "html": "<p>A web app as a personalized Smart E-Commerce Product Tracking Tool. Designed a robust software that enables a user to track price movements of their favorite products on a popular eCommerce Platform through a web-interface.</p>"
-            }
-          },
-          {
-            "node": {
-              "frontmatter": {
-                "date": "2020-05-30",
-                "title": "hatErase",
-                "tech": ["NLTK", "Django", "Twitter Dev API", "Python", "AWS"],
-                "github": "https://github.com/srijansingh53/hatErase",
-                "external": "https://github.com/srijansingh53/hatErase",
-                "company": null
-              },
-              "html": "<p>A web application to track and abjure hate speech on Twitter in real-time. Trained an NLP classification model to detect hate and notify the user through mail about the tracked person whenever the handler tweets a hateful tweet.</p>"
-            }
-          },
-          {
-            "node": {
-              "frontmatter": {
-                "date": "2020-05-10",
-                "title": "Intern, Computer Vision",
-                "tech": null,
-                "github": null,
-                "external": null,
-                "company": "Schnell Labs"
-              },
-              "html": "<ul>\n<li>Developed a Vehicle Detection and Counting model for an edge device, converted into tflite equivalent, both quantized and non-quantized. Processed frames from an IP camera and optimized the frames per second, finally deployed using Flask.</li>\n<li>Developed another approach to sent frames from edge to aws S3 bucket, processed on ec2 machine and deployed using Elastic IP. Retrieve location of camera, region, time and maintained a database for the statistics of the vehicle counting after a fixed interval.</li>\n</ul>"
-            }
-          },
-          {
-            "node": {
-              "frontmatter": {
-                "date": "2020-02-01",
-                "title": "hatErase",
-                "tech": ["NLTK", "Django", "Twitter Dev API", "Python", "AWS"],
-                "github": "https://github.com/srijansingh53/hatErase",
-                "external": "https://github.com/srijansingh53/hatErase",
-                "company": null
-              },
-              "html": "<p>A web application to track and abjure hate speech on Twitter in real-time. Trained an NLP classification model to\ndetect hate and notify the user through mail about the tracked person whenever the handler tweets a hateful tweet.</p>"
-            }
-          },
-          {
-            "node": {
-              "frontmatter": {
                 "date": "2020-01-25",
                 "title": "FORID - Field Orbiting robot to Identify Disease",
                 "tech": ["Flask", "Raspberry Pi", "Keras", "OpenCV", "SQL"],
@@ -126,32 +61,6 @@
                 "company": ""
               },
               "html": "<p>Sentiment Analysis and classification using NLP techniques on Twitter dataset. It was a part of a challenge on Analytics Vidhya in which I secured in top 50 of the leaderboard.</p>"
-            }
-          },
-          {
-            "node": {
-              "frontmatter": {
-                "date": "2020-01-01",
-                "title": "traXee",
-                "tech": ["Django", "Redis", "Celery", "Flipkart Affliate API", "AWS"],
-                "github": "https://github.com/srijansingh53/traxee",
-                "external": "https://github.com/srijansingh53/traxee",
-                "company": null
-              },
-              "html": "<p>A web app as a personalized Smart E-Commerce Product Tracking Tool. Designed a robust software that enables a user to track price movements of their favorite products on a popular eCommerce Platform through a web-interface.</p>"
-            }
-          },
-          {
-            "node": {
-              "frontmatter": {
-                "date": "2019-12-30",
-                "title": "Intern, Deep Learning",
-                "tech": null,
-                "github": null,
-                "external": null,
-                "company": "Synergy Labs"
-              },
-              "html": "<ul>\n<li>Worked on a Vision-aided Robot (6 DOF arm) to perform different tasks as communicated from server running on Nvidia Jetson Nano. Applied IP techniques to detect colour, circles, pattern, OCR, QRcodes and calculate transformation matrix to direct Robot’s TCP to the target location on object so as to perform the designated task.</li>\n<li>Semantic Segmentation of metal surface defects based on pixel encodings, used U-Net and dice loss to generate masks on test images.</li>\n</ul>"
             }
           },
           {
@@ -205,38 +114,12 @@
               },
               "html": "<p>Optimization of different parameters for 4 different materials as layers so as to absorb radio-waves in X-Band.</p>"
             }
-          },
-          {
-            "node": {
-              "frontmatter": {
-                "date": "2019-04-13",
-                "title": "Gendify",
-                "tech": ["Keras", "Python", "OpenCV"],
-                "github": "https://github.com/srijansingh53/Avanov_task-submission",
-                "external": "",
-                "company": null
-              },
-              "html": "<p>A CNN Model trained for recognition of Facial emotion (based on FER dataset), age and gender (based on a pretrained weights file).</p>"
-            }
-          },
-          {
-            "node": {
-              "frontmatter": {
-                "date": "2019-03-01",
-                "title": "Redactorize",
-                "tech": ["IBM Watson Studio", "IBM CLoud", "IBM NLU", "Django"],
-                "github": "https://github.com/srijansingh53/Redactor_theUltimates",
-                "external": "",
-                "company": "IBM Hackathon"
-              },
-              "html": "<p>It is a web application to redact sensitive information of an individual using Natural Language Processing tool of IBM-Watson.</p>"
-            }
           }
         ]
       }
     },
     "pageContext": {}
   },
-  "staticQueryHashes": ["1075814354", "1185142691", "1994492073", "2772598474", "3519264843"],
+  "staticQueryHashes": ["1075814354", "1185142691", "1994492073", "2433731535", "2772598474"],
   "slicesMap": {}
 }

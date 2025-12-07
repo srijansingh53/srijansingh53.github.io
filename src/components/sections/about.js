@@ -115,14 +115,14 @@ const About = () => {
   }, []);
 
   const skills = [
-    'Pytorch | Keras',
-    'ML/DL',
-    'Computer Vision',
-    'NLP',
-    'Django | Flask',
-    'Node.js',
-    'AWS',
-    'Python | C++',
+    'Ruby on Rails',
+    'React.js | Node.js',
+    'Python | JavaScript',
+    'PostgreSQL | MongoDB',
+    'Docker | Kubernetes',
+    'AWS | GCP',
+    'ElasticSearch',
+    'New Relic | Jenkins',
   ];
 
   return (
@@ -132,21 +132,26 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I am an ML engineer based in Kolkata, India.</p>
+            <p>Hello! I'm a Software Engineer based in Bengaluru, India.</p>
 
             <p>
-              I enjoy building things that solves complex problem involving any data using the
-              latest technologies. I always strive to deliver perfect solutions with the data in
-              hand and hence empowering the tech itself.
+              I'm a Software Engineer (SDE-2) with 4.5+ years of experience in a hyper-growth B2B
+              logistics startup. I specialize in building scalable, high-impact systems across
+              multiple products with a strong focus on backend, distributed systems, and performance
+              optimization.
             </p>
 
             <p>
-              Currently in final year of graduation from{' '}
-              <a href="https://www.iiitdmj.ac.in" target="_blank" rel="noreferrer">
-                IIIT Jabalpur
+              Currently working as a Senior Software Development Engineer II at{' '}
+              <a href="https://gocomet.com" target="_blank" rel="noreferrer">
+                GoComet India
               </a>
-              , which is completing on May 2021. I have done previous intenships at 3 different
-              companies where I worked on a wide variety of interesting and meaningful projects.
+              , where I lead technical and delivery initiatives for the Platform team. Previously,
+              I've worked across the full development lifecycle and gained experience at{' '}
+              <a href="https://investwell.app" target="_blank" rel="noreferrer">
+                Investwell
+              </a>{' '}
+              as a Machine Learning Engineer Intern.
             </p>
 
             <p>Here are a few technologies I've been working with:</p>

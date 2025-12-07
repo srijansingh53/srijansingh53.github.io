@@ -1,11 +1,11 @@
 ---
-date: '2020-08-30'
-title: 'Intern, Machine Learning Engineer'
-company: 'InvestWell'
-location: 'Gurgoan, India'
-range: 'August 2020 - September 2020'
-url: 'https://www.investwellonline.com/'
+date: '2020-08-01'
+title: 'Machine Learning Engineer Intern'
+company: 'Investwell'
+location: 'Remote'
+range: 'July 2020 - August 2020'
+url: 'https://investwell.app/'
 ---
 
-- Developed an intelligent captcha breaker to be used as a pre-filling tool in application forms. Applied morphological techniques, de-skew letters and transformed into a processing pipeline. Trained a custom DL model on processed letters of 28 classes to improve accuracy more than standard OCR.
-- Developed a continuous learning module for new incoming data and fine-tuning the pre-trained model and its integration along with the inference pipeline into the existing Flask microservice.
+- Developed an intelligent CAPTCHA breaker to be used as a pre-filling tool in application forms. Applied morphological techniques, de-skew letters and transformed into a processing pipeline.
+- Developed a continuous learning module for new incoming data and fine-tuned the pre-trained model and its integration along with the inference pipeline into the existing Flask microservice.

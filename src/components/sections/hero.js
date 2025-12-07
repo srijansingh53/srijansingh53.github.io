@@ -49,10 +49,13 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Srijan Singh.</h2>;
-  const three = <h3 className="big-heading">I build the Artificial Eye.</h3>;
+  const three = <h3 className="big-heading">I build scalable systems that drive impact.</h3>;
   const four = (
     <p>
-      I'm a Data Scientist based in India, building AI integrated products for the next gen Tech.
+      I'm a Senior Software Engineer with 4.5+ years of experience building high-performance backend
+      systems and distributed architectures. I thrive in fast-paced, challenging environments where
+      I can lead technical initiatives, optimize complex systems, and deliver measurable business
+      value.
     </p>
   );
   const five = (
