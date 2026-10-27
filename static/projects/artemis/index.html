@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Artemis</title>
+<meta name="description" content="Artemis is a personal job-search assistant that finds, ranks and tracks software engineering jobs in India using your own Google Sheets and Drive.">
+<style>
+:root{--bg:#f5f5dc;--fg:#3e2723;--head:#1a0e07;--muted:#5d4e37;--accent:#8b6914;--line:#e6e2c4}
+@media (prefers-color-scheme:dark){:root{--bg:#0a192f;--fg:#a8b2d1;--head:#e6f1ff;--muted:#8892b0;--accent:#64ffda;--line:#233554}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 -apple-system,system-ui,"Segoe UI",sans-serif}
+main{max-width:760px;margin:0 auto;padding:64px 16px 48px}
+h1,h2{color:var(--head);line-height:1.2}h1{font-size:36px;margin:0 0 8px}h2{font-size:21px;margin:36px 0 8px}
+a{color:var(--accent)}.muted{color:var(--muted);font-size:14px}ul{padding-left:20px}li{margin:4px 0}
+nav{display:flex;gap:16px;font-size:14px;margin-bottom:40px;font-family:ui-monospace,"SF Mono",monospace}
+footer{margin-top:56px;padding-top:16px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+</style></head><body><main>
+<nav><a href="/">srijansingh53.github.io</a><a href="/projects/artemis/">Artemis</a><a href="/projects/artemis/privacy.html">Privacy</a></nav>
+<h1>Artemis</h1>
+<p class="muted">Personal job-search assistant · early preview</p>
+<p>Artemis helps a job seeker find, rank and track relevant job openings. You describe the roles you want and add your resume; Artemis gathers matching public job postings, scores them against your preferences, estimates compensation where possible, and drafts answers for application forms that you review and submit yourself.</p>
+
+<h2>How it works</h2>
+<ul>
+<li>You create a <strong>Hunt</strong> (target role, level, locations and filters) in a Google Sheet in your own Google Drive.</li>
+<li>Artemis reads your resume from your Drive to pre-fill experience and skills.</li>
+<li>It collects job postings from public sources and company career pages, then ranks them in your sheet.</li>
+<li>On request, it writes an "apply kit" (suggested answers per form field) as a Google Doc in your Drive.</li>
+<li>Artemis never submits applications or signs in to job sites on your behalf. You apply and update the status yourself.</li>
+</ul>
+
+<h2>Google account access</h2>
+<p>Artemis asks for permission to use Google Sheets, Google Drive and Google Apps Script in your account. It uses them only to create and update its own spreadsheet, read the resumes you place in its Drive folder, save the documents it generates, and install the spreadsheet menu. See the <a href="/projects/artemis/privacy.html">privacy policy</a> for details.</p>
+
+<h2>Status</h2>
+<p>Artemis is currently a personal project used by its developer. It is not offered as a public service yet.</p>
+<footer>Artemis · by Srijan Singh · <a href="mailto:srijansingh53.official@gmail.com">srijansingh53.official@gmail.com</a></footer>
+</main></body></html>
