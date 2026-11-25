@@ -10,10 +10,6 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/srijan-singh-67538214a',
     },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/SrijanS23563236',
-    },
   ],
 
   navLinks: [
