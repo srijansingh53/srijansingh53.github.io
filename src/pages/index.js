@@ -2029,9 +2029,6 @@ const V2Page = ({ data }) => {
             </ul>
           </nav>
           <div className="actions">
-            <IconButton as={Link} to="/v1/" title="View the original site (v1)" aria-label="View the original site (v1)">
-              v1
-            </IconButton>
             <ThemeToggle />
             <Button $primary className="sm hide-sm" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
               Résumé
