@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://srijansingh53.github.io/srijansingh53.github.io/sitemap-index.xml
+Host: https://srijansingh53.github.io
