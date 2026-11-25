@@ -151,11 +151,11 @@ const Nav = ({ isHome }) => {
             <CSSTransition classNames={fadeClass} timeout={timeout}>
               <div className="logo" tabIndex="-1">
                 {isHome ? (
-                  <a href="/" aria-label="home">
+                  <a href="/v1/" aria-label="home">
                     <IconLogo />
                   </a>
                 ) : (
-                  <Link to="/" aria-label="home">
+                  <Link to="/v1/" aria-label="home">
                     <IconLogo />
                   </Link>
                 )}

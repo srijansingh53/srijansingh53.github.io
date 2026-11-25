@@ -46,7 +46,7 @@ const StyledContent = styled.div`
 `;
 
 const Layout = ({ children, location }) => {
-  const isHome = location.pathname === '/';
+  const isHome = location.pathname.replace(/\/$/, '') === '/v1';
   const [isLoading, setIsLoading] = useState(isHome);
 
   useEffect(() => {
