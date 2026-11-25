@@ -2480,8 +2480,7 @@ const V2Page = ({ data }) => {
       <Footer>
         <Container>
           <div className="row">
-            <span>© {new Date().getFullYear()} Srijan Singh · Designed &amp; built in Gatsby · v2</span>
-            <Link to="/v1/">View the original site (v1)</Link>
+            <span>© {new Date().getFullYear()} Srijan Singh · Designed &amp; built in Gatsby</span>
           </div>
         </Container>
       </Footer>
