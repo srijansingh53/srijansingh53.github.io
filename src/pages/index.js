@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
-import { graphql, Link } from 'gatsby';
+import { graphql } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import styled, { createGlobalStyle, keyframes } from 'styled-components';
 import { email, socialMedia } from '@config';
@@ -2440,7 +2440,7 @@ const V2Page = ({ data }) => {
             </Recognition>
 
             <MoreRow>
-              <Button as={Link} to="/archive">
+              <Button href="https://github.com/srijansingh53?tab=repositories" target="_blank" rel="noopener noreferrer">
                 See the full project archive →
               </Button>
             </MoreRow>
